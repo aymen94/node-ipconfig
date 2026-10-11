@@ -1,6 +1,6 @@
 {
   "name": "node-ipconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A safe JavaScript API for Windows ipconfig output",
   "license": "MIT",
   "type": "module",
