@@ -8,8 +8,19 @@ Promise-based JavaScript access to Windows network configuration through the nat
 - Command execution is supported on Windows only. The pure `parseIpconfig(text)` parser runs on Windows, macOS, and Linux.
 - Both ESM and CommonJS package entry points are provided. Public command methods return Promises.
 
+## Installation
+
+Install the package with your preferred package manager:
+
 ```sh
+# npm
 npm install node-ipconfig
+
+# pnpm
+pnpm add node-ipconfig
+
+# Yarn
+yarn add node-ipconfig
 ```
 
 The command wrapper requires Windows. The parser and output formatters can run on any supported Node.js platform.
