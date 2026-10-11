@@ -1,0 +1,38 @@
+{
+  "name": "node-ipconfig",
+  "version": "1.0.0",
+  "description": "A safe JavaScript API for Windows ipconfig output",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.cjs",
+  "module": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": { "types": "./src/index.d.ts", "default": "./src/index.js" },
+      "require": { "types": "./src/index.d.cts", "default": "./src/index.cjs" }
+    },
+    "./parser": {
+      "import": { "types": "./src/parser.d.ts", "default": "./src/parser.js" },
+      "require": {
+        "types": "./src/parser.d.cts",
+        "default": "./src/parser.cjs"
+      }
+    }
+  },
+  "files": ["src", "docs", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test",
+    "test:coverage": "node --experimental-test-coverage --test",
+    "lint": "node --check src/index.js && node --check src/parser.js && node --check src/command.js && node --check test/ipconfig.test.js && node --check examples/basic.js",
+    "typecheck": "tsc --noEmit --strict --skipLibCheck --target ES2022 --module NodeNext --moduleResolution NodeNext src/index.d.ts src/index.d.cts src/parser.d.ts src/parser.d.cts"
+  },
+  "keywords": ["ipconfig", "windows", "network", "configuration", "dns"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aymen94/node-ipconfig.git"
+  },
+  "bugs": { "url": "https://github.com/aymen94/node-ipconfig/issues" },
+  "homepage": "https://github.com/aymen94/node-ipconfig#readme"
+}

@@ -1,0 +1,13 @@
+Windows IP Configuration
+
+Loopback Pseudo-Interface 1:
+   Description . . . . . . . . . . . : 環戻りアダプター – тест
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00
+   IPv6 Address. . . . . . . . . . . : ::1
+   DNS Servers . . . . . . . . . . . : None
+   Default Gateway . . . . . . . . . :
+   Vendor-specific unfamiliar label . : retained value
+
+Ethernet adapter IPv6-only:
+   IPv6 Address. . . . . . . . . . . : 2001:db8::99/64
+   IPv4 Address. . . . . . . . . . . :

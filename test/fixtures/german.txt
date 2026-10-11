@@ -1,0 +1,9 @@
+Windows-IP-Konfiguration
+
+Ethernet-Adapter LAN:
+   Beschreibung . . . . . . . . . . : Ethernet Controller
+   Physikalische Adresse . . . . . . : AA-BB-CC-DD-EE-FF
+   DHCP aktiviert . . . . . . . . . : Ja
+   IPv4-Adresse . . . . . . . . . . : 192.168.0.5
+   Subnetzmaske . . . . . . . . . . : 255.255.255.0
+   Standardgateway . . . . . . . . : 192.168.0.1
