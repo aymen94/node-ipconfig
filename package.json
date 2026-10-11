@@ -34,5 +34,8 @@
     "url": "https://github.com/aymen94/node-ipconfig.git"
   },
   "bugs": { "url": "https://github.com/aymen94/node-ipconfig/issues" },
-  "homepage": "https://github.com/aymen94/node-ipconfig#readme"
+  "homepage": "https://github.com/aymen94/node-ipconfig#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
 }
